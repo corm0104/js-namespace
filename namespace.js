@@ -1,7 +1,8 @@
 var CORM0104 = {
     init: function(){
         var div= document.createElement("div");
-        document.getElementById("div").className="box";
+        div.className='box';
+        //document.getElementById("div").className="box";
         
         div.textContent="CORM0104";
         
